@@ -13,5 +13,5 @@ s.requires_arc     = true
 s.frameworks       = 'AssetsLibrary' , 'AVFoundation', 'MediaPlayer'
 s.source_files     = 'ZLPhotoLib/Classes/**/*'
 s.resource         = "ZLPhotoLib/ZLPhotoLib.bundle"
-
+s.dependency  "DACircularProgressView"
 end
