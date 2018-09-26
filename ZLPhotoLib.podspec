@@ -11,7 +11,10 @@ s.platform         = :ios, '6.0'
 s.requires_arc     = true
 
 s.frameworks       = 'AssetsLibrary' , 'AVFoundation', 'MediaPlayer'
-s.source_files     = 'ZLPhotoLib/Classes/**/*'
+s.source_files     = 'ZLPhotoLib/Classes/**/*.{h,m}'
 s.resource         = "ZLPhotoLib/ZLPhotoLib.bundle"
-s.dependency  "DACircularProgressView"
+
+s.dependency  "DACircularProgress"
+s.dependency  "SDWebImage"
+
 end

@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-#import "ZLPhoto.h"
+#import <ZLPhotoLib/ZLPhoto.h>
 
 @interface MLCellInfo : NSObject
 @property (copy, nonatomic) NSString *name;

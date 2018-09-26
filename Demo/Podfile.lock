@@ -1,0 +1,29 @@
+PODS:
+  - DACircularProgress (2.3.1)
+  - SDWebImage (4.4.2):
+    - SDWebImage/Core (= 4.4.2)
+  - SDWebImage/Core (4.4.2)
+  - ZLPhotoLib (1.0.1):
+    - DACircularProgress
+    - SDWebImage
+
+DEPENDENCIES:
+  - ZLPhotoLib (from `../`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - DACircularProgress
+    - SDWebImage
+
+EXTERNAL SOURCES:
+  ZLPhotoLib:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  DACircularProgress: 4dd437c0fc3da5161cb289e07ac449493d41db71
+  SDWebImage: 624d6e296c69b244bcede364c72ae0430ac14681
+  ZLPhotoLib: e2d9e768233c4a11ee728d360c7170e49e089b65
+
+PODFILE CHECKSUM: dd8c00c32acec383f6a3fb80cb41cadff249cf4e
+
+COCOAPODS: 1.5.3
